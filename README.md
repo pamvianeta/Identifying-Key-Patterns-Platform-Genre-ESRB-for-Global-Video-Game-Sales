@@ -1,36 +1,36 @@
-# Identifying-Key-Patterns-Platform-Genre-ESRB-for-Global-Video-Game-Sales
+# Identifying key patterns and factors (platform, genre, rating, region and lifecycle) for video game sales
 Identify patterns that determine whether a game is successful. This will enable you to detect promising projects and plan advertising campaigns.
 
 ## Requirements
 The libraries are listed in the file requirements.txt.
 
-## Analysis
-- Platforms showed high sales around the year 2010 after being launched in 2005, as is the case with X360.
-- It subsequently experienced a decline, reaching its minimum in 2015.
-- The PS4 platform (which launched around 2013, as PS5 launched later), peaked around 2015, which is 2-3 years after its launch.
-- Platforms that reached their peak sales did so after 2-3 years from their launch, followed by a dramatic decrease in sales.
-- Platforms that started in the 80s persisted until 2016-2017.
-- The line chart was chosen to observe the platform's growth cycle.
+## Technologies used
+Language: Python
+Key Libraries:
+- Pandas and NumPy: Data cleaning, transformation, and manipulation.
+- Matplotlib and Seaborn: Data visualization (trends, distributions, regional analysis).
+- SciPy & statsmodels: Implementation of Independent Samples T-Tests and Proportions Z-Tests for statistical hypothesis validation.
 
-<img width="998" height="574" alt="image" src="https://github.com/user-attachments/assets/da5b9059-8a43-4678-8b5a-c59e5374c0fe" />
+## Relevant graphs
+-Platform lifecycle chart (Line Plot): Shows the strong sales peak that occurs 2 to 3 years after a console launch and its rapid decline, defining the critical window of opportunity for the business.
+<img width="956" height="511" alt="image" src="https://github.com/user-attachments/assets/c7353950-8805-4cde-a083-2a4398a54ea2" />
 
-- The platform with the most outliers is DS, but it shows less variation (lower spread) within the data.
-- PS2 is the platform with the highest total sales, having a mean of approximately 0.25 million USD in total sales. Other platforms such as X360, PS3, and PS have similar means (around $0.25 million USD), but with a larger range (higher variability).
-- The platforms Wii, DS, GBA, and PS4 have average sales below $0.25 million USD.
-- It can be observed that the data distribution for each platform is positively skewed, with a tail to the right.
-- It can also be determined that the majority of sales for these platforms are concentrated in small amounts, rather than large amounts, as shown in the graphs.
+Regional bar Charts by Genre (Comparative Bar Charts): Demonstrate the marked contrast in genre preferences by region (e.g., Role-Playing Dominance in Japan vs. Action/Shooter in North America/Europe), justifying the regionalization strategy.
+<img width="1318" height="440" alt="image" src="https://github.com/user-attachments/assets/99f6f925-6b02-412d-93a0-77f981c27477" />
+<img width="1314" height="430" alt="image" src="https://github.com/user-attachments/assets/47dd8659-a2ee-47e2-8def-c1be2305773e" />
 
-<img width="1000" height="553" alt="image" src="https://github.com/user-attachments/assets/1c50645b-5bf4-40c6-9360-6da16bee160f" />
+Scatter Plot of Sales vs. Critic Scores: Illustrates the weak positive correlation between overall sales and critic scores, validating the conclusion that external business factors (marketing, platform) are more important for commercial success.
+<img width="991" height="476" alt="image" src="https://github.com/user-attachments/assets/f07eb965-fdd7-49b0-a4e2-eb4f9aa9ce4f" />
+<img width="990" height="89" alt="image" src="https://github.com/user-attachments/assets/fa402542-3038-4ecc-a1ba-84c759ff7c28" />
 
-Correlation on the Wii platform.
-- Correlation between sales and critic score: 0.17
-- Correlation between sales and user score: 0.11
-- The charts look similar; there is an outlier with an approximate total sales value of 80. What differs is the scale of both scores (critic and user); however, they appear to have the same distribution.
-- The correlation between sales and score for each is less than 0.2, which indicates a weak positive correlation between sales and the score.
-- The analysis could be improved if we remove the outliers from sales above approximately 20 to 90, to calculate a correlation based on the average of the sales data.
-  
-<img width="998" height="485" alt="image" src="https://github.com/user-attachments/assets/4de1431b-112d-496a-ae11-2233a5a658f9" />
+## Results and conclusions
+According to statistical and exploratory analysis, the most important factors for improving sales and achieving commercial success are:
 
+Strict Regionalization Strategy: Companies must stop treating the global market as a single entity. Investment in role-playing games is critical for success in Japan, while action and shooter games should be prioritized in North America and Europe.
+
+Maximizing Platform Lifecycle: Marketing and promotional efforts should be heavily concentrated in the first two to three years after a console or platform launch, as this is the only window of opportunity for maximizing sales.
+
+Focus on External Factors (Non-Score Drivers): Given the weak correlation with ratings, companies should strategically invest in advertising, platform exclusivity agreements, and leveraging the size of the target platform's user base, as these business factors are more influential on commercial success than the mere opinion of the average critic or user.
 
 
 
