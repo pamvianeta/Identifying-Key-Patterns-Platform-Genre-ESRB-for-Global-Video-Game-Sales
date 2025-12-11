@@ -3,16 +3,17 @@ Identify patterns that determine whether a game is successful. This will enable 
 
 ## Technologies used
 -Language: Python.
+
 -Key Libraries:
   - Pandas and NumPy: Data cleaning, transformation, and manipulation.
   - Matplotlib and Seaborn: Data visualization (trends, distributions, regional analysis).
   - SciPy & statsmodels: Implementation of Independent Samples T-Tests and Proportions Z-Tests for statistical hypothesis validation.
 
 ## Relevant graphs
--Platform lifecycle chart (Line Plot): Shows the strong sales peak that occurs 2 to 3 years after a console launch and its rapid decline, defining the critical window of opportunity for the business.
+-Platform lifecycle chart : Shows the strong sales peak that occurs 2 to 3 years after a console launch and its rapid decline, defining the critical window of opportunity for the business.
 <img width="956" height="511" alt="image" src="https://github.com/user-attachments/assets/c7353950-8805-4cde-a083-2a4398a54ea2" />
 
-Regional bar Charts by Genre (Comparative Bar Charts): Demonstrate the marked contrast in genre preferences by region (e.g., Role-Playing Dominance in Japan vs. Action/Shooter in North America/Europe), justifying the regionalization strategy.
+Regional bar Charts by Genre: Demonstrate the marked contrast in genre preferences by region (e.g., Role-Playing Dominance in Japan vs. Action/Shooter in North America/Europe), justifying the regionalization strategy.
 <img width="1318" height="440" alt="image" src="https://github.com/user-attachments/assets/99f6f925-6b02-412d-93a0-77f981c27477" />
 <img width="1314" height="430" alt="image" src="https://github.com/user-attachments/assets/47dd8659-a2ee-47e2-8def-c1be2305773e" />
 
