@@ -1,15 +1,12 @@
 # Identifying key patterns and factors (platform, genre, rating, region and lifecycle) for video game sales
 Identify patterns that determine whether a game is successful. This will enable you to detect promising projects and plan advertising campaigns.
 
-## Requirements
-The libraries are listed in the file requirements.txt.
-
 ## Technologies used
-Language: Python
-Key Libraries:
-- Pandas and NumPy: Data cleaning, transformation, and manipulation.
-- Matplotlib and Seaborn: Data visualization (trends, distributions, regional analysis).
-- SciPy & statsmodels: Implementation of Independent Samples T-Tests and Proportions Z-Tests for statistical hypothesis validation.
+-Language: Python
+-Key Libraries:
+  - Pandas and NumPy: Data cleaning, transformation, and manipulation.
+  - Matplotlib and Seaborn: Data visualization (trends, distributions, regional analysis).
+  - SciPy & statsmodels: Implementation of Independent Samples T-Tests and Proportions Z-Tests for statistical hypothesis validation.
 
 ## Relevant graphs
 -Platform lifecycle chart (Line Plot): Shows the strong sales peak that occurs 2 to 3 years after a console launch and its rapid decline, defining the critical window of opportunity for the business.
